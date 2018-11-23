@@ -1,2 +1,2 @@
-# GreenDeck
-Task for GreenDeck ML Internship
+# Greendeck
+Greendeck ML Internship Task Solution
