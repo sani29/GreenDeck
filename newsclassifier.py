@@ -134,7 +134,7 @@ np.mean(Y_pred == Y_test)
 
 # confusion matrix
 conf_mat = confusion_matrix(Y_test, Y_pred)
-fig, ax = plt.subplots(figsize=(8,6))
+fig, ax = plt.subplots(figsize=(40,35))
 sns.heatmap(conf_mat, annot=True, fmt='d',
             xticklabels=df['category'].values, yticklabels=df['news'].values)
 plt.ylabel('Actual')
